@@ -2,13 +2,13 @@
 <plugin id="com-plugin-aliyunVoD" version="1.1.10" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
 	<name>aliyunVoD</name>
 	<description>阿里云视频点播VoD</description>
-	<js-module name="AliyunVoD" src="www/aliyunVoD.js">
+	<js-module name="aliyunVoD" src="www/aliyunVoD.js">
 		<clobbers target="aliyunVoD" />
 	</js-module>
 	<platform name="android">
 		<config-file parent="/*" target="res/xml/config.xml">
-			<feature name="AliyunVoD">
-				<param name="android-package" value="com.plugin.aliyun.aliyunVoD" />
+			<feature name="aliyunVoD">
+				<param name="android-package" value="com.plugin.aliyunVoD.aliyunVoDPlugin" />
 			</feature>
 		</config-file>
 		<config-file parent="/*" target="AndroidManifest.xml" />
