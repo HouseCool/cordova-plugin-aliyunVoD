@@ -22,9 +22,10 @@
 		</config-file>
 
  		<source-file src="src/android/aliyunVoDPlugin.java" target-dir="src/com/plugin/aliyunVoD" />
- 		<source-file src="src/android/libs/gson-2.8.0.jar" target-dir="app/src/main/libs"/>
- 		<source-file src="src/android/libs/jsr305-3.0.0.jar" target-dir="app/src/main/libs"/>
- 		<source-file src="src/android/libs/vod-upload-android-sdk-1.5.0.jar" target-dir="app/src/main/libs"/>
+ 		<source-file src="src/android/libs/gson-2.8.0.jar" target-dir="app/src/main/jniLibs"/>
+ 		<source-file src="src/android/libs/jsr305-3.0.0.jar" target-dir="app/src/main/jniLibs"/>
+ 		<source-file src="src/android/libs/vod-upload-android-sdk-1.5.0.jar" target-dir="app/src/main/jniLibs"/>
+ 		<framework src="com.android.support:support-v4:23.1.1" />
 		<framework src="com.aliyun.dpa:oss-android-sdk:+" />
 	</platform>
 </plugin>
